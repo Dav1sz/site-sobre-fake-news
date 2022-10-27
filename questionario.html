@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionario</title>
+</head>
+
+
+<body bgcolor="black">
+    <body style="color: white;"
+    
+        
+    <header style="background-color: rgb(0, 255, 204);">
+    <header style="border: 5px solid teal;">   
+        <center> 
+    <h1>Questionario sobre a Fake News</h1>  
+        </center>  
+    </header>
+</header>
+    <br>
+    
+    <center>
+    <nav><mark>
+        <a href="index.html">O que é fake news?</a> |
+        <a href="comoidentificar.html">Como identificar uma fake news</a> |
+        <a href="fakenewscrime.html">Fake News é Crime?</a> |
+    </mark></nav>
+    <br>
+    </center>
+
+    <form action="get">
+
+        <fieldset>
+            <legend>Dados do usuário</legend>
+
+            <label for="cnome">Nome Completo</label>
+            <input type="text" name="nomecompleto" id="nome" required>
+
+            <label for="idade">Idade</label>
+            <input type="text" name="Idade" id="idade" required>
+
+
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <p>1.Você ja caiu em alguma Fake News.</p>
+            <input type="radio" name="Sim" id="s1">
+            <label for="s1">Sim</label>
+            <br>
+            <input type="radio" name="não" id="n1">
+            <label for="n1">Não</label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <p>2.Qual tipo de fake news você acha mais comum de se encontrar.</p>
+            <label for="por">fake news por:</label>
+            <select name="fakenews" id="por">
+            <option value="texto">Texto</option>
+            <option value="audio">Audio</option>
+            <option value="imagem">Imagem</option>    
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+        <P>3.Você acha que fake news deveria ser crime?Se sim, Porque.</P>
+        <textarea name="motivo" id="resposta" cols="150" rows="15"></textarea>
+        </fieldset>
+        <br>
+
+        <button type="submit">Concluir</button>
+    </form>
+
+    </body>
+
+
+
+</html>
